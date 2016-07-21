@@ -1,0 +1,16 @@
+PODS:
+  - DRPageTracker (0.0.1)
+
+DEPENDENCIES:
+  - DRPageTracker (from `../`)
+
+EXTERNAL SOURCES:
+  DRPageTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DRPageTracker: 1337ef7b99ff10c48f7f99af6f5ad08524c43f0d
+
+PODFILE CHECKSUM: 694d54f4c09a852a6106ddaba4fc223d5845de6d
+
+COCOAPODS: 1.0.0
