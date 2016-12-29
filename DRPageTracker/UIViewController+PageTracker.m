@@ -27,6 +27,10 @@
 
 - (void)swizzled_viewDidAppear:(BOOL)animated {
     [self swizzled_viewDidAppear:animated];
+    NSString *className = NSStringFromClass([self class]);
+    if ([className hasPrefix:@"NS"] || [className hasPrefix:@"UI"]) {
+        return;
+    }
     DRLog(@"%@", NSStringFromClass([self class]));
 }
 
